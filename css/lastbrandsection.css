@@ -1,0 +1,36 @@
+.section5 {
+  width: 100%;
+  height: 100vh;
+}
+.lastbrand {
+  width: 100%;
+  height: 100%;
+}
+.lastbrandImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.lastbrandImg > a {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/마지막섹션이미지.jpg");
+  background-origin: content-box;
+  background-size: cover;
+}
+
+.lastbrandButton {
+  width: 135px;
+  height: 40px;
+  background-color: var(--sub_color_50);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+  top: 52%;
+  left: 47%;
+  margin-top: 30px;
+  border-radius: 5px;
+}

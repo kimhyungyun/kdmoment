@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./common/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/playsection.css" />
+    <link rel="stylesheet" href="./css/slidesection.css" />
+    <link rel="stylesheet" href="./css/brandsection.css">
+    <link rel="stylesheet" href="./css/scrollsection.css">
+    <link rel="stylesheet" href="./css/lastbrandsection.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/priceList.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+  <!-- 헤더 -->
+    <header id="header">
+      <div class="headerGeneral">
+        <div class="headerLeftBar">
+          <a href="https://kdmoment.com/" class="leftlogo"> </a>
+
+          <div class="headerMiddle">
+            <ul class="middleMenu">
+              <li>
+                <a href="https://kdmoment.com/shopinfo/brand.html">BRAND</a>
+              </li>
+              <li>
+                <a href="https://kdmoment.com/product/list.html?cate_no=42"
+                  >SHOP</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://kdmoment.com/board/gallery/list.html?board_no=8"
+                  >NOTICE</a
+                >
+              </li>
+              <li>
+                <a href="https://kdmoment.com/shopinfo/membership.html"
+                  >MEMBERSHIP</a
+                >
+              </li>
+              <li>
+                <a href="https://kdmoment.com/board/store/list.html">STORE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="headerrightBar">
+          <fieldset class="topSearch">
+            <input type="text" class="textButton" />
+            <input type="text" value="SEARCH" class="searchButton" />
+          </fieldset>
+          <div class="rightMenu">
+            <a href="https://kdmoment.com/member/login.html" class="login"></a>
+            <a
+              href="https://kdmoment.com/order/basket.html"
+              class="shoppingCart"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 첫 섹션 -->
+    <section class="section1">
+      <iframe class="section1_video"
+        src="https://player.vimeo.com/video/949415181?autoplay=1&loop=1&autopause=0&muted=1&controls=0"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- 두번째 섹션 -->
+    <section class="section2">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+      <!-- 1번재 배너 -->
+        <div class="swiper-slide">
+          <a href="https://kdmoment.com/product/project.html?cate_no=149">
+            <img src="./img/배너1.jpg" alt="" />
+          </a>
+          <button>
+              <a href="https://kdmoment.com/product/project.html?cate_no=149"></a>
+          </button>
+        </div>
+      <!-- 2번재 배너 -->
+        <div class="swiper-slide">
+          <a href="https://kdmoment.com/product/list.html?cate_no=44">
+            <img src="./img/배너2.jpg" alt="" />
+          </a>
+          <button>
+            <a href="https://kdmoment.com/product/list.html?cate_no=44"></a>
+          </button>
+        </div>
+      <!-- 3번재 배너 -->
+        <div class="swiper-slide">
+          <a href="https://kdmoment.com/product/list.html?cate_no=113">
+              <img src="./img/배너3.jpg" alt="" />
+          </a>
+          <button>
+              <a href="https://kdmoment.com/product/list.html?cate_no=113"></a>
+          </button>
+        </div>
+      <!-- 4번재 배너 -->
+        <div class="swiper-slide">
+          <a href="https://kdmoment.com/product/list.html?cate_no=79">
+              <img src="./img/배너4.jpg" alt="" />
+          </a>
+          <button>
+              <a href="https://kdmoment.com/product/list.html?cate_no=79"></a>
+          </button>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    </section>
+
+    <!-- 세번째 섹션 -->
+    <section class="section3">
+      <div class="section3MiddleText">
+        <span>MUST</span>
+        <span class="imgSpan">
+          <img src="./img/섹션3_icon.png" alt="">
+        </span>
+        <span>HAVE</span>
+      </div>
+
+      <div class="priceContainer">
+        <ul class="priceList">
+          <div class="priceArrayLine1">
+          <div class="priceCard1">
+            <li class="priceCardImg1">
+              <a href="https://kdmoment.com/product/detail.html?product_no=119&cate_no=1&display_group=2">
+              </a>
+            </li>
+            <div class="pirceCardText">
+              <p class="pirceCardTextP">WIAVIM</p>
+              <span class="pirceCardTextSpan">위아바임 기프트 세트 - 이뮨 바이탈
+              </br> 솔루션 28ea (경동제약)
+              </span>
+            </div>
+          </div>
+          </div>
+          <div class="priceArrayLine2">
+            <div class="priceCard2">
+              <li class="priceCardImg2">
+                <a href="https://kdmoment.com/product/detail.html?product_no=120&cate_no=1&display_group=2">
+                </a>
+              </li>
+              <div class="pirceCardText">
+                <p class="pirceCardTextP">WIAVIM</p>
+                <span class="pirceCardTextSpan">위아바임 기프트 세트 - 마그아연 킬
+                </br>스트레스 28ea (경동제약)
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="priceArrayLine3">
+            <div class="priceCard3">
+              <li class="priceCardImg3">
+                <a href="https://kdmoment.com/product/detail.html?product_no=121&cate_no=1&display_group=2">
+                </a>
+              </li>
+              <div class="pirceCardText">
+                <p class="pirceCardTextP">WIAVIM</p>
+                <span class="pirceCardTextSpan">위아바임 기프트 세트 - 마그아연 퀵
+                </br>부스팅 28ea (경동제약)
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="priceArrayLine4">
+            <div class="priceCard4">
+              <li class="priceCardImg4">
+                <a href="https://kdmoment.com/product/detail.html?product_no=122&cate_no=1&display_group=2">
+                </a>
+              </li>
+              <div class="pirceCardText">
+                <p class="pirceCardTextP">WIAVIM</p>
+                <span class="pirceCardTextSpan">위아바임 기프트 세트 - 마그아연 퀵
+                </br>부스팅 28ea (경동제약)
+                </span>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <a href="https://m.kdmoment.com/product/list.html?cate_no=42">
+        <button class="brandButton2">VIEW MORE</button>
+      </a>
+
+    </section>
+
+
+    <!-- 네번째 섹션 -->
+    <section class="section4">
+      <div class="brand">
+      <div class="brandImg">
+        <a href="https://kdmoment.com/shopinfo/brand.html">
+          <button class="brandButton">VIEW MORE</button>
+        </a>
+      </div>
+    </div>
+    </section>
+
+    <!-- 다섯번째 섹션 -->
+    <section class="section5">
+      <div class="lastbrand">
+        <div class="lastbrandImg">
+          <a href="https://kdmoment.com/shopinfo/brand.html">
+            <button class="lastbrandButton">VIEW MORE</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+      <div class="footerbox">
+        <div class="footerLogo">
+          <a href="https://kdpharma.co.kr/"><img src="./img/footer_logo.svg" alt=""></a>
+        </div>
+        <div class="footerMiddleBox">
+        <div class="MiddleBoxLeft">
+          <ul class="footerUlOne">
+            <a href="https://kdmoment.com/member/privacy.html"><li>개인정보처리방침</li></a>
+            <a href="https://kdmoment.com/member/mall_agreement.html"><li>이용약관</li></a>
+            <a href="https://kdmoment.com/product/list.html?cate_no=55/"><li>임직원전용</li></a>
+          </ul>
+          <ul class="footerUlTwo">
+            <li>경동제약(주)</li>
+            <li>대표이사 : 류기성,김경훈</li>
+            <li>사업자등록번호:124-81-35518</li>
+            <li>[사업자정보확인]</li>
+          </ul>
+          <ul class="footerUlThree">
+            <li>주소 : 경기도 화성시 양감면 제약단지로 224-3 경동제약(주)</li>
+            <li>통신판매업 신고 : 제2016화성양감-4호</li>
+            <li>개인정보보호책임자 : 경동제약</li>
+          </ul>
+
+        </div>
+        <div class="MiddleBoxMiddle">
+          <ul class="footerUlfour">
+            <li>CS CENTER</li>
+            <li>02-570-6199</li>
+            <li>AM 9:00 - PM 16:00</li>
+          </ul>
+          <ul class="footerUlfive">
+            <li>OTHERS</li>
+            <li>FAX : 02-577-519</li>
+            <li>E-MAIL : kd_hc@kdpharma.co.kr</li>
+          </ul>
+        </div>
+        <div class="MiddleBoxRight">
+          <div class="rightImg">
+            <img class="insta" src="./img/footer_insta.png" alt="">
+            <img class="youtube" src="./img/footer_youtube.webp" alt="">
+          </div>
+        </div>
+       </div>
+        <p class="footerText">COPYRIGHT ⓒ KYUNGDONG PHARM. CO., LTD ALL RIGHT RESERVED.</p>
+      </div>
+    </footer>
+  </body>
+</html>

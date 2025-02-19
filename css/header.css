@@ -1,0 +1,101 @@
+#header {
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  z-index: 1000;
+}
+.headerGeneral {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerLeftBar {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.leftlogo {
+  height: 100%;
+  width: 230px;
+  margin: 0 30px;
+  background-color: var(--sub_color_50);
+  background-image: url("../img/header_logo_white.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.headerMiddle {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.middleMenu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+.middleMenu > li {
+  padding-right: 59px;
+  font-size: 13px;
+  color: white;
+}
+
+/* right */
+
+.headerrightBar {
+  margin-left: 284px;
+  margin-right: 60px;
+
+  display: flex;
+  align-items: center;
+}
+.topSearch {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  height: 26px;
+  width: 162.8px;
+  border-bottom: 1px solid gainsboro;
+  margin-right: 20px;
+}
+.textButton {
+  width: 110px;
+  height: 18px;
+  border: none;
+  background-color: var(--sub_color_50);
+}
+
+.searchButton {
+  width: 55px;
+  border: none;
+  font-size: 12px;
+  background-color: var(--sub_color_50);
+}
+
+.rightMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightMenu > .login {
+  width: 17px;
+  height: 18px;
+  background-image: url("../img/login_icon.webp");
+  margin-right: 20px;
+}
+.rightMenu > .shoppingCart {
+  width: 17px;
+  height: 18px;
+  background-image: url("../img/cart_icon.webp");
+}
+body {
+  width: 100vw;
+}

@@ -1,0 +1,121 @@
+.footer {
+  width: 100%;
+  height: 380px;
+  background-color: black;
+  padding: 73px 100px;
+}
+.footerbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 푸터 위 로고*/
+
+.footerLogo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+.footerLogo > img {
+  width: 209px;
+  height: 30px;
+  height: 100%;
+}
+
+/* 푸터 중간 */
+
+.footerMiddleBox {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 42px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+/* 푸터 중간 왼쪽 */
+
+.MiddleBoxLeft {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.footerUlOne {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22px;
+  font-size: 15px;
+  gap: 24px;
+  color: white;
+}
+.footerUlTwo {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  gap: 14px;
+  margin-bottom: 19px;
+}
+
+.footerUlThree {
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  margin-bottom: 19px;
+}
+
+/* 푸터 중간 중간 */
+
+.MiddleBoxMiddle {
+  width: 30%;
+  height: 100%;
+}
+
+.footerUlfour {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-bottom: 22px;
+  gap: 24px;
+}
+
+.footerUlfive {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  margin-bottom: 19px;
+  gap: 45px;
+}
+
+/* 푸터 중간 오른쪽 */
+
+.MiddleBoxRight {
+  display: flex;
+  flex-direction: row;
+  margin-left: 236px;
+}
+.rightImg {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  width: 100%;
+  gap: 20px;
+}
+
+.insta {
+  width: 24px;
+  height: 23px;
+}
+.youtube {
+  width: 23px;
+  height: 16px;
+}
+
+/* 푸터 바닥 텍스트 */
+
+.footerText {
+  color: gray;
+}

@@ -1,0 +1,133 @@
+.priceContainer {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.priceList {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+}
+.priceArrayLine1 {
+  width: 335.6px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.priceCard1 {
+  display: flex;
+  flex-direction: column;
+  width: 334.6px;
+  height: 473.9px;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.priceCardImg1 {
+  background-image: url("../img/리스트왼쪽위노마우스.jpg");
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.pirceCardText {
+  height: 35%;
+  width: 100%;
+  background-color: white;
+  padding: 28px;
+}
+.pirceCardTextP {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.pirceCardTextSpan {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.priceArrayLine2 {
+  width: 335.6px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.priceCard2 {
+  display: flex;
+  flex-direction: column;
+  width: 334.6px;
+  height: 473.9px;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.priceCardImg2 {
+  background-image: url("../img/리스트오른쪽위노마우스.jpg");
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.priceArrayLine3 {
+  width: 335.6px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.priceCard3 {
+  display: flex;
+  flex-direction: column;
+  width: 334.6px;
+  height: 473.9px;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.priceCardImg3 {
+  background-image: url("../img/리스트왼쪽밑노마우스.jpg");
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.priceArrayLine4 {
+  width: 335.6px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.priceCard4 {
+  display: flex;
+  flex-direction: column;
+  width: 334.6px;
+  height: 473.9px;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.priceCardImg4 {
+  background-image: url("../img/리스트오른쪽밑노마우스.jpg");
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.brandButton2 {
+  width: 135px;
+  height: 40px;
+  background-color: var(--sub_color_50);
+  position: relative;
+  bottom: 30px;
+  left: 47%;
+  color: gray;
+  border-radius: 5px;
+}
